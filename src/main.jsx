@@ -5,7 +5,6 @@ import {restaurants} from "./constants/mock";
 const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement)
 
-
 root.render(
     <button id="myButton" onClick={() =>{
         console.log("Hello!");

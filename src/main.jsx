@@ -8,6 +8,7 @@ const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement)
 
 root.render(
+
     <Layout>
     <div>
     {restaurants.map((restaurant) => (
@@ -16,3 +17,4 @@ root.render(
     </div>
     </Layout>
 );
+
